@@ -3,6 +3,7 @@
 // ==================================== */
 
 :root {
+  --yellow: #ffe845;
 }
 
 /* ====================================
@@ -37,11 +38,6 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: middle;
-}
-
-/* Ajouter une bordure noire de 5px aux sections */
-.bordered-section {
-  border: 5px solid black;
 }
 
 /* ====================================

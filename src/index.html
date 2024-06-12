@@ -7,14 +7,52 @@
     <link rel="stylesheet" href="scss/main.scss" />
   </head>
   <body>
+    <header>
+      <img src="img/logo.png" alt="" class="header-logo" />
+      <div class="header-icon">
+        <img src="img/cart.png" alt="" class="cart" />
+        <img src="img/burger.png" alt="" class="burger" />
+        <div class="menu">
+          <div class="menu-link-container">
+            <a href="" class="menu-link">Nos bières</a>
+            <a href="" class="menu-link">Nos valeurs</a>
+          </div>
+          <div class="menu-languages">
+            <a href="" class="menu-language">FR</a> |
+            <a href="" class="menu-language">DE</a>|
+            <a href="" class="menu-language">EN</a>
+          </div>
+        </div>
+      </div>
+    </header>
     <div class="container">
       <div class="row">
         <div class="col-12">Colonne 1</div>
         <div class="col-12">Colonne 2</div>
         <div class="col-12">Colonne 3</div>
-        <div class="col-4">Colonne 4</div>
+      </div>
+      <div class="row g-0">
+        <div class="col-4">
+          <div class="card">
+            <img src="img/cart.png" alt="" class="card-cart" />
+            <img src="img/Mockup-Blonde-vide.png" alt="" class="card-beer" />
+            <h2 class="card-title">Brune</h2>
+            <div class="card-price-container">
+              <p class="card-quantity">33cl</p>
+              <p class="card-price">CHF 4.60</p>
+            </div>
+            <div class="card-ingredient-container">
+              <p class="card-ingredient-title">Ingrédients</p>
+              <p class="card-ingredient">
+                Houblon agrume, eau, coriandre, malt de seigle.
+              </p>
+            </div>
+          </div>
+        </div>
         <div class="col-4">Colonne 5</div>
         <div class="col-4">Colonne 6</div>
+      </div>
+      <div class="row">
         <div class="col-12">Colonne 7</div>
         <div class="col-12">Colonne 8</div>
         <div class="col-12">Colonne 9</div>
@@ -28,4 +66,3 @@
     <script src="js/main.js" type="module"></script>
   </body>
 </html>
-bla
