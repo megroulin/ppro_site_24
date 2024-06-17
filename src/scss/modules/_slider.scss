@@ -1,0 +1,30 @@
+.slider-container {
+  overflow: hidden; /*Don't modify*/
+  background: #ffffff;
+  width: 100%;
+  margin: auto;
+  border: 3px solid black;
+}
+
+.slide {
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  font-family: "Druk Wide";
+  font-size: 50px;
+  display: inline-block;
+  animation: slider 20s linear infinite; /*Don't modify*/
+}
+
+.slider-row {
+  white-space: nowrap; /*Don't modify*/
+}
+
+/* Animation - Don't modify */
+@keyframes slider {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
