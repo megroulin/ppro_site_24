@@ -1,0 +1,38 @@
+.footer {
+  background-color: var(--yellow);
+}
+
+.footer-title {
+  font-family: "Druk Wide";
+  font-size: 15px;
+  padding: 10px 0px 10px 0px;
+}
+
+.footer-text {
+  font-family: "Spline Sans";
+  font-size: 15px;
+}
+
+.footer-copyright {
+  border: 2px solid black;
+  font-size: 10px;
+  padding: 6px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: var(--yellow);
+}
+
+a {
+  text-decoration: none;
+}
+
+.survol-footer {
+  text-decoration: none;
+  transition: text-decoration 0.3s ease-in-out;
+}
+
+.survol-footer:hover {
+  text-decoration: underline;
+  font-size: 30px;
+}

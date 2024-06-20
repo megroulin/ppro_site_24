@@ -1,0 +1,50 @@
+.menu {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 600px;
+  border: 3px solid black;
+  padding-top: 60px;
+  z-index: 1;
+  transform: translateX(110%);
+  transition: 0.4s;
+  background: var(--yellow);
+}
+
+.menu.is-active {
+  transform: translateX(0);
+}
+
+.menu-link-container {
+  border-top: 3px solid black;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Druk Wide", sans-serif;
+  flex-direction: column;
+  padding: 50px 15px 150px;
+  height: 100%;
+}
+
+.menu-link {
+  font-size: 27px;
+  text-decoration: none;
+}
+
+.menu-languages {
+  position: absolute;
+  right: 20px;
+  bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  font-size: 20px;
+}
+
+.menu-language {
+  text-decoration: none;
+}
+
+.menu-language:hover {
+  text-decoration: underline;
+}

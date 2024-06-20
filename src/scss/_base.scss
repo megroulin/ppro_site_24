@@ -62,4 +62,102 @@ video {
 
 .row {
   border: 1.5px solid black;
+  padding: 0;
+}
+
+video.first-video {
+  border: 1.5px solid black;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+video.second-video {
+  border: 1.5px solid black;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+p.citation {
+  background-color: var(--yellow);
+  font-family: "Druk Wide", sans-serif;
+  text-align: right;
+  width: 100%;
+  padding: 30px 90px 30px;
+  font-size: 40px;
+}
+
+p.histoire {
+  background-color: var(--yellow);
+  font-family: "Spline Sans";
+  font-weight: 400;
+  font-size: 22px;
+  padding: 90px 120px 90px 120px;
+}
+
+p.histoire strong {
+  -webkit-text-stroke: 0.1px;
+}
+
+.outer-border {
+  padding: 1.5px;
+  padding-bottom: 0.5px;
+  background-color: black;
+}
+
+.middle-border {
+  padding: 15px;
+  background-color: var(--yellow);
+}
+
+.inner-border {
+  padding: 1.5px;
+  background-color: black;
+}
+
+.newsletter {
+  background-color: var(--yellow);
+  border: 3px solid black;
+  padding: 80px 80px 80px 80px;
+  font-family: "Druk Wide";
+  font-size: 20px;
+}
+
+hr {
+  border: 1.5px solid black;
+}
+
+.arrow {
+  font-size: 40px;
+}
+
+.newsletter-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 3px solid black;
+  padding-top: 30px;
+  input {
+    color: black;
+    width: 920px;
+    font-family: "Druk Wide";
+    font-size: 15px;
+    border: none;
+    background-color: var(--yellow);
+
+    &::placeholder {
+      color: black;
+    }
+  }
+}
+
+.survol {
+  text-decoration: none;
+  transition: text-decoration 0.3s ease-in-out;
+}
+
+.survol:hover {
+  text-decoration: underline;
+  font-size: 30px;
 }
